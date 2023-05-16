@@ -1,0 +1,16 @@
+{
+  "name": "results-summary-component-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tailwindcss -i ./styles.css -o ./dist/styles.css",
+    "watch": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

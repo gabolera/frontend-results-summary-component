@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="dist/styles.css" />
+  </head>
+  <body>
+    <div class="h-screen flex sm:items-center">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 sm:flex-row container mx-auto sm:rounded-r-2xl sm:shadow-xl"
+      >
+        <div
+          class="bg-gradient-to-b from-purple-500 to-blue-600 p-4 sm:rounded-2xl rounded-b-2xl flex flex-col items-center text-center gap-y-4 justify-around h-full"
+        >
+          <div class="font-semibold text-gray-300">Your Result</div>
+          <div
+            class="flex flex-col items-center rounded-full w-32 h-32 justify-center align-middle bg-gradient-to-b from-purple-500 to-blue-600 shadow-gray-600 shadow-inner"
+          >
+            <div class="text-5xl font-bold text-white">76</div>
+            <div class="text-md text-gray-300">of 100</div>
+          </div>
+          <div class="px-12">
+            <h1 class="text-2xl text-white font-bold">Great</h1>
+            <span class="text-md text-gray-300"
+              >You scored higher than 65% of the people who have taken these
+              tests.</span
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col p-5">
+          <h1 class="font-bold mb-4 text-xl">Summary</h1>
+          <div class="flex flex-col gap-4">
+            <div
+              class="flex flex-row w-full justify-between align-middle p-4 rounded-md bg-red-50 text-red-500"
+            >
+              <div class="flex gap-4">
+                <img src="./assets/images/icon-reaction.svg" />
+                <h1 class="font-bold">Reaction</h1>
+              </div>
+              <div class="text-black">
+                <strong>80</strong>
+                / 100
+              </div>
+            </div>
+
+            <div
+              class="flex flex-row w-full justify-between align-middle p-4 rounded-md bg-yellow-50 text-yellow-500"
+            >
+              <div class="flex gap-4">
+                <img src="./assets/images/icon-memory.svg" />
+                <h1 class="font-bold">Memory</h1>
+              </div>
+              <div class="text-black">
+                <strong>92</strong>
+                / 100
+              </div>
+            </div>
+
+            <div
+              class="flex flex-row w-full justify-between align-middle p-4 rounded-md bg-green-50 text-green-500"
+            >
+              <div class="flex gap-4">
+                <img src="./assets/images/icon-verbal.svg" />
+                <h1 class="font-bold">Verbal</h1>
+              </div>
+              <div class="text-black">
+                <strong>61</strong>
+                / 100
+              </div>
+            </div>
+
+            <div
+              class="flex flex-row w-full justify-between align-middle p-4 rounded-md bg-purple-50 text-blue-950"
+            >
+              <div class="flex gap-4">
+                <img src="./assets/images/icon-visual.svg" />
+                <h1 class="font-bold">Visual</h1>
+              </div>
+              <div class="text-black">
+                <strong>72</strong>
+                / 100
+              </div>
+            </div>
+
+            <div class="flex flex-row w-full justify-between align-middle mt-3">
+              <button
+                class="font-bold text-white bg-blue-950 w-full p-4 rounded-full"
+              >
+                Continue
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
